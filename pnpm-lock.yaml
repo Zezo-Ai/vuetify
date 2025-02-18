@@ -177,8 +177,8 @@ importers:
         specifier: ^5.16.1
         version: 5.22.1
       vue-router:
-        specifier: ^4.3.0
-        version: 4.3.0(vue@3.4.27(typescript@5.5.4))
+        specifier: ^4.5.0
+        version: 4.5.0(vue@3.4.27(typescript@5.5.4))
       vue-tsc:
         specifier: ^2.0.29
         version: 2.0.29(typescript@5.5.4)
@@ -426,7 +426,7 @@ importers:
         version: 0.17.5(@types/babel__core@7.1.19)(vite@5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3))
       vite-plugin-vue-layouts:
         specifier: ^0.11.0
-        version: 0.11.0(vite@5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3))(vue-router@4.3.0(vue@3.4.27(typescript@5.5.4)))(vue@3.4.27(typescript@5.5.4))
+        version: 0.11.0(vite@5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3))(vue-router@4.5.0(vue@3.4.27(typescript@5.5.4)))(vue@3.4.27(typescript@5.5.4))
       vite-plugin-vuetify:
         specifier: ^2.1.0
         version: 2.1.0(vite@5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3))(vue@3.4.27(typescript@5.5.4))(vuetify@packages+vuetify)
@@ -609,7 +609,7 @@ importers:
         version: 5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3)
       vite-ssr:
         specifier: ^0.17.1
-        version: 0.17.1(@vitejs/plugin-vue@5.0.4(vite@5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3))(vue@3.4.27(typescript@5.5.4)))(@vueuse/head@1.3.1(vue@3.4.27(typescript@5.5.4)))(encoding@0.1.13)(rollup@3.29.4)(vite@5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3))(vue-router@4.3.0(vue@3.4.27(typescript@5.5.4)))(vue@3.4.27(typescript@5.5.4))
+        version: 0.17.1(@vitejs/plugin-vue@5.0.4(vite@5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3))(vue@3.4.27(typescript@5.5.4)))(@vueuse/head@1.3.1(vue@3.4.27(typescript@5.5.4)))(encoding@0.1.13)(rollup@3.29.4)(vite@5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3))(vue-router@4.5.0(vue@3.4.27(typescript@5.5.4)))(vue@3.4.27(typescript@5.5.4))
       vitest:
         specifier: ^2.1.1
         version: 2.1.1(@types/node@22.5.4)(@vitest/browser@2.1.1)(@vitest/ui@2.1.1)(happy-dom@8.9.0(encoding@0.1.13))(jsdom@25.0.0)(msw@2.4.2(typescript@5.5.4))(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3)
@@ -618,7 +618,7 @@ importers:
         version: 9.11.1(vue@3.4.27(typescript@5.5.4))
       vue-router:
         specifier: ^4.3.0
-        version: 4.3.0(vue@3.4.27(typescript@5.5.4))
+        version: 4.5.0(vue@3.4.27(typescript@5.5.4))
       webdriverio:
         specifier: ^8.40.5
         version: 8.40.5(encoding@0.1.13)
@@ -3016,8 +3016,8 @@ packages:
   '@vue/compiler-vue2@2.7.16':
     resolution: {integrity: sha512-qYC3Psj9S/mfu9uVi5WvNZIzq+xnXMhOwbTFKKDD7b1lhpnn71jXSFdTQ+WsIEk0ONCd7VV2IMm7ONl6tbQ86A==}
 
-  '@vue/devtools-api@6.5.1':
-    resolution: {integrity: sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==}
+  '@vue/devtools-api@6.6.4':
+    resolution: {integrity: sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==}
 
   '@vue/language-core@2.0.29':
     resolution: {integrity: sha512-o2qz9JPjhdoVj8D2+9bDXbaI4q2uZTHQA/dbyZT4Bj1FR9viZxDJnLcKVHfxdn6wsOzRgpqIzJEEmSSvgMvDTQ==}
@@ -9035,8 +9035,8 @@ packages:
   vue-prism-component@2.0.0:
     resolution: {integrity: sha512-1ofrL+GCZOv4HqtX5W3EgkhSAgadSeuD8FDTXbwhLy8kS+28RCR8t2S5VTeM9U/peAaXLBpSgRt3J25ao8KTeg==}
 
-  vue-router@4.3.0:
-    resolution: {integrity: sha512-dqUcs8tUeG+ssgWhcPbjHvazML16Oga5w34uCUmsk7i0BcnskoLGwjpa15fqMr2Fa5JgVBrdL2MEgqz6XZ/6IQ==}
+  vue-router@4.5.0:
+    resolution: {integrity: sha512-HDuk+PuH5monfNuY+ct49mNmkCRK4xJAV9Ts4z9UFc4rzdDnxQLyCMGGc8pKhZhHTVzfanpNwB/lwqevcBwI4w==}
     peerDependencies:
       vue: ^3.2.0
 
@@ -12373,7 +12373,7 @@ snapshots:
       de-indent: 1.0.2
       he: 1.2.0
 
-  '@vue/devtools-api@6.5.1': {}
+  '@vue/devtools-api@6.6.4': {}
 
   '@vue/language-core@2.0.29(typescript@5.5.4)':
     dependencies:
@@ -17318,7 +17318,7 @@ snapshots:
 
   pinia@2.1.7(typescript@5.5.4)(vue@3.4.27(typescript@5.5.4)):
     dependencies:
-      '@vue/devtools-api': 6.5.1
+      '@vue/devtools-api': 6.6.4
       vue: 3.4.27(typescript@5.5.4)
       vue-demi: 0.14.6(vue@3.4.27(typescript@5.5.4))
     optionalDependencies:
@@ -19028,7 +19028,7 @@ snapshots:
 
   vee-validate@4.12.6(vue@3.4.27(typescript@5.5.4)):
     dependencies:
-      '@vue/devtools-api': 6.5.1
+      '@vue/devtools-api': 6.6.4
       type-fest: 4.15.0
       vue: 3.4.27(typescript@5.5.4)
 
@@ -19117,13 +19117,13 @@ snapshots:
       - '@types/babel__core'
       - supports-color
 
-  vite-plugin-vue-layouts@0.11.0(vite@5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3))(vue-router@4.3.0(vue@3.4.27(typescript@5.5.4)))(vue@3.4.27(typescript@5.5.4)):
+  vite-plugin-vue-layouts@0.11.0(vite@5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3))(vue-router@4.5.0(vue@3.4.27(typescript@5.5.4)))(vue@3.4.27(typescript@5.5.4)):
     dependencies:
       debug: 4.3.7
       fast-glob: 3.3.2
       vite: 5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3)
       vue: 3.4.27(typescript@5.5.4)
-      vue-router: 4.3.0(vue@3.4.27(typescript@5.5.4))
+      vue-router: 4.5.0(vue@3.4.27(typescript@5.5.4))
     transitivePeerDependencies:
       - supports-color
 
@@ -19155,7 +19155,7 @@ snapshots:
       fast-glob: 3.3.2
       vite: 5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3)
 
-  vite-ssr@0.17.1(@vitejs/plugin-vue@5.0.4(vite@5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3))(vue@3.4.27(typescript@5.5.4)))(@vueuse/head@1.3.1(vue@3.4.27(typescript@5.5.4)))(encoding@0.1.13)(rollup@3.29.4)(vite@5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3))(vue-router@4.3.0(vue@3.4.27(typescript@5.5.4)))(vue@3.4.27(typescript@5.5.4)):
+  vite-ssr@0.17.1(@vitejs/plugin-vue@5.0.4(vite@5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3))(vue@3.4.27(typescript@5.5.4)))(@vueuse/head@1.3.1(vue@3.4.27(typescript@5.5.4)))(encoding@0.1.13)(rollup@3.29.4)(vite@5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3))(vue-router@4.5.0(vue@3.4.27(typescript@5.5.4)))(vue@3.4.27(typescript@5.5.4)):
     dependencies:
       '@rollup/plugin-replace': 3.0.0(rollup@3.29.4)
       '@vue/server-renderer': 3.4.27(vue@3.4.27(typescript@5.5.4))
@@ -19167,7 +19167,7 @@ snapshots:
       '@vitejs/plugin-vue': 5.0.4(vite@5.4.3(@types/node@22.5.4)(sass-embedded@1.80.1)(sass@1.80.1)(terser@5.31.3))(vue@3.4.27(typescript@5.5.4))
       '@vueuse/head': 1.3.1(vue@3.4.27(typescript@5.5.4))
       vue: 3.4.27(typescript@5.5.4)
-      vue-router: 4.3.0(vue@3.4.27(typescript@5.5.4))
+      vue-router: 4.5.0(vue@3.4.27(typescript@5.5.4))
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -19364,7 +19364,7 @@ snapshots:
     dependencies:
       '@intlify/core-base': 9.11.1
       '@intlify/shared': 9.11.1
-      '@vue/devtools-api': 6.5.1
+      '@vue/devtools-api': 6.6.4
       vue: 3.4.27(typescript@5.5.4)
 
   vue-instantsearch@4.16.1(@vue/server-renderer@3.4.27(vue@3.4.27(typescript@5.5.4)))(algoliasearch@4.23.3)(vue@3.4.27(typescript@5.5.4)):
@@ -19379,9 +19379,9 @@ snapshots:
 
   vue-prism-component@2.0.0: {}
 
-  vue-router@4.3.0(vue@3.4.27(typescript@5.5.4)):
+  vue-router@4.5.0(vue@3.4.27(typescript@5.5.4)):
     dependencies:
-      '@vue/devtools-api': 6.5.1
+      '@vue/devtools-api': 6.6.4
       vue: 3.4.27(typescript@5.5.4)
 
   vue-tsc@2.0.29(typescript@5.5.4):
